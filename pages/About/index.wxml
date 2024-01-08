@@ -1,0 +1,39 @@
+<view>
+    <image src="https://www.0793pc.cn/weixin/services/bannerBg/about.jpg" mode="scaleToFill" class="tpic"/>
+	
+	<view class="infobox">
+        <text class="tit2">关于我们</text>
+		<text class="comment">上饶志远电脑，成立于2011年10月，是一家集电脑、打印机销售; 电脑、打印机、网络、监控维修服务于一体的IT技术服务提供商。 \n我们拥有1支8年以上电脑、网络、监控方面从业经验的技术团队，已为上饶众多单位及个人提供上万次技术服务，我们将一如既往，为上饶用户提供更优质的IT技术服务。</text>	
+	</view>	
+
+	<view class="infobox">	
+        <text class="tit2">团队成员</text>
+            <scroll-view class="teams" scroll-x="true" bindscroll="scroll">
+             <block wx:for="{{teams}}" wx:key="{{item.idx}}">
+                <view class="item">
+                    <image src="{{item.avatarUrl}}" mode="aspectFit" class="avatar" />
+                    <view class="h3">{{item.tname}}</view>
+                    <view class="h5">{{item.workage}}</view>
+                    <view class="h5">{{item.desc}}</view>
+                </view> 
+             </block>
+        </scroll-view>
+	</view>	
+
+	<view class="infobox">	
+        <text class="tit2">门店地址</text>
+        <view class="ul">
+            <block wx:for="{{shops}}" wx:key="index">
+            <view class="li">
+                <image src="{{item.shopPic}}" mode="aspectFill" class="leftpic" />
+                <view class="infobox2">
+                    <view class="h2">{{item.shopname}}</view>
+                    <view class="h4">{{item.opentime}}</view>
+                    <view class="h4">{{item.address}}</view>
+                </view>
+            </view>
+            </block>
+        </view>
+	</view>	
+	
+	</view>	

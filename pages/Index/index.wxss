@@ -1,0 +1,181 @@
+/**index.wxss**/
+page{
+    background-color: #f2f2f2;
+}
+.hbg{
+  height:320rpx;
+}
+.card{
+  border-radius: 20rpx;
+  width:94%;
+  margin:-50rpx auto;
+}
+.block {
+    display: block;
+    margin-bottom: 20rpx;
+  }
+.services{
+    margin-bottom:20rpx;
+}
+.items {
+  /* width: calc(100vw - 60rpx); */
+  padding-left:20rpx;
+  padding-top: 30rpx;
+  padding-right:40rpx;
+  background-color: #fff;
+  column-count:2;
+  column-gap:20px;
+}
+.item{
+  width:100%;
+  height: 128rpx;
+  margin-bottom:20rpx;
+  padding:10rpx;
+  border-radius: 10rpx;
+  color:#fff;
+  display: flex;
+  flex-wrap: wrap;
+  break-inside: avoid;
+}
+.navbox{
+    width:66%;
+    margin-top:20rpx;
+    margin-bottom:15rpx;
+    padding-left:10rpx;
+}
+.row{
+    width:96%;
+}
+.navh1{
+    font-weight: 600;
+    font-size:small;
+    margin-bottom:10rpx;
+}
+.yun{
+    width:100rpx;
+    height:100rpx;
+}
+
+.weixiu1{
+    background-color:#fdbe32;
+    height:300rpx;
+    text-align: center;
+}
+.weixiu2{
+    background-color:#fdb1b2;
+}
+.weixiu3{
+    background-color:#9fc3fe;
+}
+.topservices{
+    padding-top:20rpx;
+    margin-bottom:20rpx
+}
+.ul{
+    padding-left:20rpx; 
+    padding-right:20rpx; 
+}
+.li{
+    height:260rpx;
+    padding-top:20rpx;
+    padding-bottom:20rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #fff;
+    margin-bottom: 30rpx;
+    border-radius: 10rpx;
+}
+.leftpic{
+    width:280rpx;
+    height:210rpx;
+    border-radius: 8rpx;
+    margin-top:10rpx;
+    margin-right:30rpx;
+}
+.h1{
+    font-size:medium;
+    font-weight: 600;
+    margin-bottom:30rpx;
+    text-align:center;
+}
+
+.h2{
+    font-weight: 500;
+    font-size:medium;
+    margin-top:20rpx;
+    margin-bottom:15rpx;
+}
+.h2::before{
+    content: '\2022';
+    font-weight: 600;
+    color:#fa4000;
+    margin-right:6rpx;
+    }
+.infobox{
+    width:60%;
+}
+.h4{
+    font-size:x-small;
+    color:#666;
+    height:80rpx;
+    overflow: hidden;
+    line-height: 40rpx;
+    margin-bottom:20rpx;
+}
+.h5{
+    font-size: x-small;
+    color:#999;
+}
+.h6{
+    font-size: xx-small;
+}
+.price{
+    font-family: Microsoft YaHei;
+    font-weight: 600;
+    font-size:medium;
+    color:#fa4000;
+}
+.price::before{
+    content: '\00A5:';
+    margin-right:5rpx;
+    font-size:x-small;
+    }
+ .price::after{
+        content: '元/次';
+        margin-left:5rpx;
+        font-size:x-small;
+     }
+.buy{
+    width:200rpx;
+    height:60rpx;
+    line-height:60rpx;
+    text-align:center;
+    font-size:small;
+    color:#fff;
+    background-color: #fa4000;
+    box-shadow: 0 0 10rpx rgba(250, 64, 0,0.6);
+    border-radius: 30rpx;
+}
+.circle[plain] {
+    padding: 0;
+    border: none;
+    width: 64rpx;
+    height: 64rpx;
+  }
+  
+  .image {
+    width: 64rpx;
+    height: 64rpx;
+  }
+.circle[plain] {
+    display: flex;
+    margin-right: 40rpx;
+    right: 0;
+    position: fixed;
+    bottom: 10%;
+    padding: 0;
+    border: none;
+    width: 64rpx;
+    height: 64rpx;
+  }

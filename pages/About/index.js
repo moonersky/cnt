@@ -1,0 +1,61 @@
+Page({
+    data: {
+        teams:[
+            {
+                idx:2,
+                avatarUrl:'https://www.0793pc.cn/weixin/services/bannerBg/face-ma.jpg',
+                tname:'马工',
+                workage:'从业12年',
+                desc:'擅长电脑、监控、组网'
+            },
+            {
+                idx:3,
+                avatarUrl:'https://www.0793pc.cn/weixin/services/bannerBg/face-xu.jpg',
+                tname:'徐工',
+                workage:'从业8年',
+                desc:'擅长电脑、打印机维修'
+            },
+            {
+                idx:4,
+                avatarUrl:'https://www.0793pc.cn/weixin/services/bannerBg/face-tian.jpg',
+                tname:'田工',
+                workage:'从业14年',
+                desc:'擅长笔记本维修'
+            },
+            {
+                idx:5,
+                avatarUrl:'https://www.0793pc.cn/weixin/services/bannerBg/face-li.jpg',
+                tname:'李工',
+                workage:'从业8年',
+                desc:'擅长手机维修'
+            }
+        ],
+        shops:[
+            {
+                shopid:1001,
+                shopPic:'http://www.0793pc.cn/weixin/services/bannerBg/shop1.jpg',
+                shopname:'电脑维修商贸城店',
+                opentime:'营业时间:8：00-18：00',
+                address:'信州区江南商贸城29栋'
+            },
+            {
+                shopid:1002,
+                shopPic:'http://www.0793pc.cn/weixin/services/bannerBg/shop2.jpg',
+                shopname:'笔记本维修亿升广场店',
+                opentime:'营业时间:8：00-18：00',
+                address:'信州区亿升广场2楼电脑城'
+            },
+            {
+                shopid:1003,
+                shopPic:'http://www.0793pc.cn/weixin/services/bannerBg/shop3.jpg',
+                shopname:'手机维修步行街店',
+                opentime:'营业时间:8：00-18：00',
+                address:'信州区步行街肯德基旁边解百商厦入口处'
+            }
+        ]
+    },
+
+    onLoad(options) {
+    },
+
+})

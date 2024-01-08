@@ -1,0 +1,36 @@
+<view>
+    <image src="/static/hbg.png" mode="aspectFill"></image>
+
+  <!-- 导航菜单开始 -->
+  
+  <t-grid class="block card" column="{{3}}">
+  <t-grid-item text="电信宽带" image="/static/cmcc.png" bindclick="onClick" />
+  <t-grid-item text="移动宽带" image="/static/chinamobile.png" bindclick="onClick" />
+  <t-grid-item text="联通宽带" image="/static/liantong.png" bindclick="onClick" />
+  <!-- <t-grid-item text="增值服务" image="/static/lianhao.png" bindclick="onClick" /> -->
+</t-grid>
+
+    <!-- 热门服务开始 -->
+    <view class="topservices">
+        <view class="ul">
+        <block wx:for="{{topServs}}" wx:key="index">
+            <navigator url="{{item.goodsUrl}}">
+            <view class="li">
+                <image src="{{item.tPic}}" mode="aspectFill" class="leftpic" />
+                <view class="infobox">
+                    <view class="h2">{{item.goodsName}}</view>
+                    <view class="h4">{{item.goodsKey}}</view>
+                    <view class="buy">查看详情</view>
+                </view>
+            </view>
+            </navigator>
+        </block>
+        </view>
+    </view>
+    <!-- 热门服务结束 -->
+
+    <button plain='true'  class="circle"  open-type="contact">
+        <image mode='aspectFill' src='/static/services.png' class='image'></image>
+    </button>
+
+</view>

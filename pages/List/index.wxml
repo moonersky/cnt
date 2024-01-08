@@ -1,0 +1,36 @@
+<view>
+    <view class="banner">
+        <image src="/static/hbg.png" mode="aspectFill" class="banner" />
+    </view>
+  <!-- 导航菜单开始 -->
+ 
+    <t-grid class="block card" column="{{4}}">
+      <t-grid-item text="电信宽带" image="/static/cmcc.png" value="1" bindclick="getgoods(1)" />
+      <t-grid-item text="移动宽带" image="/static/chinamobile.png"  bindclick="getgoods(2)" />
+      <t-grid-item text="联通宽带" image="/static/liantong.png"  bindclick="getgoods(3)" />
+      <t-grid-item text="增值服务" image="/static/lianhao.png"  bindclick="getgoods(4)" />
+    </t-grid>
+  <!-- 导航菜单结束 -->
+
+    <view class="svlist">
+        <view class="ul">
+           <block wx:for="{{dataList}}" wx:key="index">
+            <view class="li" hover-class="hover-class" hover-stay-time="1000">
+            <image src="{{item.tPic}}" mode="aspectFill" class="leftpic" />
+                <view class="infobox">
+                    <view class="h2">{{item.goodsName}}</view>
+                    <view class="h4">{{item.goodsKey}}</view>
+                    <view class="h3">
+                        <view class="price">{{item.id}}</view>
+                        <view class="buy" bindtap="freeTell">马上办理</view>
+                    </view>
+                </view>
+            </view>
+            </block>
+
+        </view>
+    </view>
+
+
+
+</view>

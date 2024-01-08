@@ -1,0 +1,113 @@
+page{
+    background-color:#f2f2f2;
+  }
+ 
+  .header{
+    height:550rpx;
+    margin:0 auto;
+    background-color: #fff;
+    margin-bottom:32rpx;
+    padding:20rpx;
+    font-size:smaller;
+  }
+  .titlepic{
+    height:350rpx;
+    overflow: hidden;
+    margin-bottom:20rpx;
+  }
+  .title{
+    font-size:small;
+  }
+  .text{
+    width:100%;
+    height:60rpx;
+    line-height:60rpx;
+    margin-top:15rpx;
+    font-size:small;
+    color:#c0c0c0;
+  }
+
+.price{
+    font-family: Microsoft YaHei;
+    font-weight: 600;
+    font-size:medium;
+    color:#fa4000;
+}
+.price::before{
+    content: '\00A5:';
+    margin-right:5rpx;
+    font-size:x-small;
+    }
+ .price::after{
+        content: '元/次';
+        margin-left:5rpx;
+        font-size:x-small;
+     }
+
+.buy{
+    width:240rpx;
+    height:60rpx;
+    line-height:60rpx;
+    margin-right:32rpx;
+    text-align:center;
+    font-size:small;
+    color:#fff;
+    background-color: #fa4000;
+    box-shadow: 0 0 10rpx rgba(250, 64, 0,0.6);
+    border-radius: 30rpx;
+}
+.body{
+    height:300rpx;
+    margin:0 auto;
+    background-color: #fff;
+    margin-bottom:32rpx;
+    padding:20rpx;
+    font-size:smaller;
+  }
+  .h2{
+    font-weight: 600;
+    margin-top:10rpx;
+    margin-bottom:15rpx;
+}
+.h2::before{
+    content: 'I';
+    font-weight: 600;
+    color:#fa4000;
+    margin-right:10rpx;
+}
+.contactBar{
+    width:100%;
+    height:100rpx;
+    line-height:100rpx;
+    background-color:#fff;
+    border-top: 2rpx solid #f2f2f2;
+    position: fixed; 
+    bottom: 0; 
+    display:flex;
+    flex-direction: row;	
+    font-size:27rpx;
+    justify-content:center;
+}
+.contbtn{
+    width:120rpx;
+    line-height: 40rpx;
+    margin-right:30rpx;
+    margin-top:30rpx;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    /* justify-content:space-around; */
+}
+.longbtn{
+    width:360rpx;
+    height:60rpx;
+    line-height:60rpx;
+    margin-left:32rpx;
+    text-align:center;
+    font-size:small;
+    color:#fff;
+    background-color: #fa4000;
+    box-shadow: 0 0 10rpx rgba(250, 64, 0,0.6);
+    border-radius: 30rpx;
+    margin-top:20rpx;
+}

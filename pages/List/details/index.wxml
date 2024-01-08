@@ -1,0 +1,47 @@
+<view>
+    <view class="header">
+        <image src="/static/services/notebook.jpg" mode="aspectFill" class="titlepic"></image>
+        <view class="title">上饶维修打印机 8年打印机维修经验 本地师傅上门</view>
+        <view class="text"> 刘师傅从业8年本地商家</view>
+        <view class="price">120</view>
+    </view>
+
+     <view class="body">
+        <view class="h2">服务详情</view>
+        <t-divider />
+        <view class="text"> 
+            公司本着“专业创造价值”的理念，精心经营十多载，有着一批不拘一格的专业设计人才和匠心独运的施工团队，可以确保您们交给我们的每一个项目都做到 
+        </view>
+     </view>
+
+     <view class="body">
+        <view class="h2">服务流程</view>
+        <t-divider />
+        <view class="text"> 
+            公司本着“专业创造价值”的理念，精心经营十多载，有着一批不拘一格的专业设计人才和匠心独运的施工团队，可以确保您们交给我们的每一个项目都做到 
+        </view>
+     </view>
+
+     <view class="body">
+        <view class="h2">收费标准</view>
+        <t-divider />
+        <view class="text"> 
+            公司本着“专业创造价值”的理念，精心经营十多载，有着一批不拘一格的专业设计人才和匠心独运的施工团队，可以确保您们交给我们的每一个项目都做到 
+        </view>
+     </view>
+
+     <view style="height:50rpx;"></view>
+
+
+    <view class="contactBar">
+        <view class="contbtn">
+            <t-icon name="service" size="20" />
+            <text>客服</text>
+        </view>
+        <view class="contbtn">
+            <t-icon name="call" size="20" />
+            <text>电话</text>
+        </view>
+        <view class="longbtn"><text>马上预约</text></view>
+    </view>
+</view>

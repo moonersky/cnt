@@ -1,0 +1,96 @@
+/**index.wxss**/
+page{
+    background-color: #f2f2f2;
+}
+.banner{
+    width:100%;
+    height:360rpx;
+    border-radius: 0%;
+}
+.card{
+  border-radius: 20rpx;
+  width:95%;
+  margin:-50rpx auto;
+}
+.block {
+    display: block;
+    margin-bottom: 20rpx;
+  }
+
+.hover-class{
+    border:2rpx solid #fa4000;
+    box-shadow: 0 0 10rpx rgba(250, 64, 0,0.6);
+}
+
+.ul{
+    padding-left:20rpx; 
+    padding-right:20rpx; 
+}
+.li{
+    height:240rpx;
+    background-color: #fff;
+    padding-top:20rpx;
+    padding-bottom:20rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border-radius: 20rpx;
+    margin-bottom:20rpx;
+}
+.leftpic{
+    width:240rpx;
+    height:185rpx;
+    border-radius: 8rpx;
+    margin-left:20rpx;
+}
+
+.h2{
+    font-weight: 550;
+    font-size: small;
+    line-height:50rpx;
+    margin-bottom:20rpx;
+}
+.infobox{
+    width:58%;
+    margin-right:20rpx;
+}
+.h4{
+    font-size:x-small;
+    color:#999;
+    height:80rpx;
+    overflow: hidden;
+    line-height: 40rpx;
+    margin-bottom:20rpx;
+}
+.h3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.price{
+    font-family: Microsoft YaHei;
+    font-weight: 600;
+    font-size:medium;
+    color:#fa4000;
+}
+.price::before{
+    content: '\00A5:';
+    margin-right:5rpx;
+    font-size:x-small;
+    }
+ .price::after{
+        content: '元/月';
+        margin-left:5rpx;
+        font-size:x-small;
+     }
+.buy{
+    width:160rpx;
+    height:50rpx;
+    line-height:50rpx;
+    text-align:center;
+    font-size:small;
+    color:#fff;
+    background-color: #fa4000;
+    box-shadow: 0 0 10rpx rgba(250, 64, 0,0.6);
+    border-radius: 25rpx;
+}

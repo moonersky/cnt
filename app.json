@@ -1,0 +1,48 @@
+{
+    "pages": [
+        "pages/Index/index",
+        "pages/List/index",
+        "pages/List/details/index",
+        "pages/About/index"
+    ],
+    "permission": {
+        "scope.userLocation": {
+          "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+        }
+      },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fa4600",
+        "navigationBarTitleText": "电信 移动 宽带办理",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#8a8a8a",
+        "selectedColor": "#fa4600",
+        "borderStyle": "white",
+        "backgroundColor": "#F8F8F8",
+        "list": [
+            {
+                "text": "主页",
+                "pagePath": "pages/Index/index",
+                "iconPath": "static/home.png",
+                "selectedIconPath": "static/home_action.png"
+            },
+            {
+                "text": "宽带产品",
+                "pagePath": "pages/List/index",
+                "iconPath": "static/jobs.png",
+                "selectedIconPath": "static/jobs_action.png"
+            },
+            {
+                "text": "在线客服",
+                "pagePath": "pages/About/index",
+                "iconPath": "static/user.png",
+                "selectedIconPath": "static/user_aciton.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+     
+}
